@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nosotros — FarmaVida</title>
+<meta name="description" content="Conocé la historia y los valores de FarmaVida, tu farmacia de barrio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html">
+      <img class="brand-mark" src="logo-icon.png" alt="Logo de FarmaVida" width="40" height="40">
+      <span class="brand-word">Farma<em>Vida</em></span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="nosotros.html" class="active">Nosotros</a></li>
+      <li><a href="servicios.html">Servicios</a></li>
+      <li><a href="categorias.html">Categorías</a></li>
+      <li><a href="horarios.html">Horarios</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="btn btn-ghost" href="horarios.html">Horario</a>
+      <a class="btn btn-primary" href="contacto.html">Contactanos</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="nosotros" id="nosotros" style="padding-top:64px;">
+    <div class="wrap">
+      <div>
+        <div class="brand-showcase">
+          <img src="logo-full.png" alt="Logotipo de FarmaVida — Sistema de gestión para farmacia" width="200" height="155">
+        </div>
+        <h1 class="page-head" style="padding:0;">Una farmacia de barrio, con vocación de servicio</h1>
+        <p class="measure">FarmaVida nació para acercar la salud a la comunidad. Combinamos atención personalizada con un inventario ordenado y actualizado, para que siempre encontrés lo que necesitás, cuando lo necesitás. Aquí no sos un número: te conocemos, conocemos tu receta y estamos para orientarte.</p>
+      </div>
+      <div class="facts">
+        <div class="fact">
+          <h3>Atención personalizada</h3>
+          <p>Nuestro equipo te orienta en cada compra, sin prisa y sin tecnicismos.</p>
+        </div>
+        <div class="fact">
+          <h3>Inventario al día</h3>
+          <p>Verificamos existencias y fechas de vencimiento para tu tranquilidad.</p>
+        </div>
+        <div class="fact">
+          <h3>Cerca de vos</h3>
+          <p>Ubicados en el corazón del barrio, con horario extendido toda la semana.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <a class="brand" href="index.html">
+        <img class="brand-mark" src="logo-icon.png" alt="Logo de FarmaVida" width="40" height="40">
+        <span class="brand-word">Farma<em>Vida</em></span>
+      </a>
+      <ul class="nav-links" style="position:static;display:flex;background:none;border:none;padding:0;box-shadow:none;">
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="categorias.html">Categorías</a></li>
+        <li><a href="horarios.html">Horarios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> FarmaVida. Todos los derechos reservados.</span>
+      <span>Farmacia de barrio, cerca de vos.</span>
+    </div>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/50375860276?text=Hola%2C%20quisiera%20hacer%20una%20consulta%20en%20FarmaVida." target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp al 7586-0276">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 4h16v13H9l-5 4z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M9 10.3c0 3 2.4 5.4 5.3 5.4l1.1-1.6c.2-.3.6-.4.9-.2l1.9 1c.3.2.4.6.2.9-.6 1.1-1.8 1.7-3 1.5-3-.4-6-3.5-6.4-6.6-.1-1.2.5-2.4 1.5-3 .3-.2.7-.1.9.2l1 1.9c.2.3.1.7-.2.9l-1.6 1.1z" fill="currentColor"/>
+    </svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FarmaVida — Farmacia de barrio</title>
+<meta name="description" content="Farmacia de barrio en San Salvador: medicamentos, asesoría y entrega a domicilio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html">
+      <img class="brand-mark" src="logo-icon.png" alt="Logo de FarmaVida" width="40" height="40">
+      <span class="brand-word">Farma<em>Vida</em></span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Inicio</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="servicios.html">Servicios</a></li>
+      <li><a href="categorias.html">Categorías</a></li>
+      <li><a href="horarios.html">Horarios</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="btn btn-ghost" href="horarios.html">Horario</a>
+      <a class="btn btn-primary" href="contacto.html">Contactanos</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <div class="wrap">
+      <div>
+        <h1>Cuidamos tu salud,<br>un día a la vez</h1>
+        <p class="lead">En FarmaVida encontrás medicamentos, asesoría farmacéutica y atención cercana para vos y tu familia, sin salir de tu barrio.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="servicios.html">Ver servicios</a>
+          <a class="btn btn-ghost" href="horarios.html">Horario de atención</a>
+        </div>
+      </div>
+      <svg class="hero-art" viewBox="0 0 420 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M210 40c60 30 90 80 90 140s-38 110-90 150c-52-40-90-90-90-150s30-110 90-140z" fill="var(--mint)"/>
+        <path d="M210 40c60 30 90 80 90 140s-38 110-90 150" stroke="var(--teal-700)" stroke-width="2" fill="none" opacity=".5"/>
+        <path d="M210 90v210M170 150c15 12 55 12 80 0M160 210c20 14 80 14 100 0" stroke="var(--teal-700)" stroke-width="2.5" stroke-linecap="round" fill="none" opacity=".55"/>
+        <rect x="176" y="150" width="68" height="110" rx="20" fill="var(--surface)"/>
+        <rect x="199" y="172" width="22" height="66" rx="6" fill="var(--green-500)"/>
+        <rect x="187" y="196" width="66" height="22" rx="6" fill="var(--green-500)"/>
+        <circle cx="90" cy="90" r="14" fill="var(--green-500)" opacity=".7"/>
+        <circle cx="340" cy="120" r="10" fill="var(--teal-700)" opacity=".6"/>
+        <circle cx="330" cy="290" r="16" fill="var(--mint)" stroke="var(--teal-700)" stroke-width="2"/>
+      </svg>
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true">
+    <svg viewBox="0 0 1200 60" preserveAspectRatio="none"><path d="M0 30 Q300 60 600 30 T1200 30 V60 H0 Z" fill="var(--surface-alt)"/></svg>
+  </div>
+
+  <section id="nosotros-teaser">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Una farmacia de barrio, con vocación de servicio</h2>
+        <p class="muted measure">FarmaVida nació para acercar la salud a la comunidad. Combinamos atención personalizada con un inventario ordenado y actualizado, para que siempre encontrés lo que necesitás.</p>
+      </div>
+      <a class="btn btn-ghost" href="nosotros.html">Conocé más sobre nosotros</a>
+    </div>
+  </section>
+
+  <section class="ofertas" id="ofertas">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Ofertas de la semana</h2>
+        <p>Promociones vigentes en tienda, sin necesidad de cupón.</p>
+      </div>
+
+      <div class="carousel" data-carousel>
+        <div class="carousel-viewport">
+          <ul class="carousel-track" data-track>
+
+            <li class="offer-slide">
+              <div class="offer-copy">
+                <span class="offer-tag">2×1</span>
+                <h3>Analgésicos de venta libre</h3>
+                <p>Llevate dos y pagá uno en paracetamol e ibuprofeno, toda esta semana.</p>
+                <a class="btn btn-primary" href="servicios.html">Ver servicios</a>
+              </div>
+              <svg class="offer-art" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="100" r="86" fill="color-mix(in srgb, var(--on-dark) 10%, transparent)"/>
+                <rect x="70" y="70" width="60" height="88" rx="14" fill="var(--on-dark)"/>
+                <rect x="76" y="76" width="48" height="76" rx="10" fill="var(--surface)"/>
+                <rect x="78" y="50" width="44" height="24" rx="6" fill="var(--green-500)"/>
+                <rect x="82" y="44" width="36" height="10" rx="4" fill="var(--on-dark)"/>
+                <rect x="76" y="104" width="48" height="20" fill="var(--green-500)"/>
+                <path d="M92 114h16M100 106v16" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+                <circle cx="58" cy="128" r="7" fill="var(--mint)"/>
+                <circle cx="142" cy="118" r="7" fill="var(--green-500)"/>
+                <circle cx="150" cy="140" r="6" fill="var(--mint)"/>
+              </svg>
+            </li>
+
+            <li class="offer-slide">
+              <div class="offer-copy">
+                <span class="offer-tag">-20%</span>
+                <h3>Vitaminas y suplementos</h3>
+                <p>Reforzá tus defensas con 20% de descuento en toda la línea, todo el mes.</p>
+                <a class="btn btn-primary" href="categorias.html">Ver categorías</a>
+              </div>
+              <svg class="offer-art" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="100" r="86" fill="color-mix(in srgb, var(--on-dark) 10%, transparent)"/>
+                <path d="M100 40c8 6 13 13 13 21a13 13 0 0 1-26 0c0-8 5-15 13-21z" fill="var(--mint)"/>
+                <rect x="66" y="76" width="68" height="82" rx="18" fill="var(--on-dark)"/>
+                <rect x="74" y="84" width="52" height="66" rx="12" fill="var(--surface)"/>
+                <rect x="80" y="58" width="40" height="20" rx="6" fill="var(--green-500)"/>
+                <circle cx="90" cy="104" r="6" fill="var(--green-500)"/>
+                <circle cx="110" cy="112" r="6" fill="var(--mint)"/>
+                <circle cx="96" cy="126" r="6" fill="var(--green-500)"/>
+                <circle cx="114" cy="134" r="6" fill="var(--mint)"/>
+              </svg>
+            </li>
+
+            <li class="offer-slide">
+              <div class="offer-copy">
+                <span class="offer-tag">Gratis</span>
+                <h3>Control de presión arterial</h3>
+                <p>Sin costo, todos los días en tienda. Solo acercate al mostrador.</p>
+                <a class="btn btn-primary" href="servicios.html">Ver servicios</a>
+              </div>
+              <svg class="offer-art" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="100" r="86" fill="color-mix(in srgb, var(--on-dark) 10%, transparent)"/>
+                <path d="M60 142c12 12 68 12 80 0" stroke="var(--mint)" stroke-width="12" stroke-linecap="round" fill="none"/>
+                <rect x="64" y="72" width="72" height="54" rx="12" fill="var(--on-dark)"/>
+                <rect x="72" y="80" width="56" height="28" rx="4" fill="var(--surface)"/>
+                <path d="M78 94h8l4-9 5 15 4-11h7" stroke="var(--green-500)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="121" cy="117" r="5" fill="var(--green-500)"/>
+                <circle cx="103" cy="117" r="5" fill="var(--mint)"/>
+              </svg>
+            </li>
+
+            <li class="offer-slide">
+              <div class="offer-copy">
+                <span class="offer-tag">-15%</span>
+                <h3>Cuidado del bebé</h3>
+                <p>Pañales, fórmulas y productos de higiene infantil con descuento especial.</p>
+                <a class="btn btn-primary" href="categorias.html">Ver categorías</a>
+              </div>
+              <svg class="offer-art" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="100" r="86" fill="color-mix(in srgb, var(--on-dark) 10%, transparent)"/>
+                <rect x="86" y="52" width="20" height="16" rx="4" fill="var(--green-500)"/>
+                <rect x="78" y="66" width="36" height="16" rx="5" fill="var(--on-dark)"/>
+                <path d="M72 82h48l-6 68a8 8 0 0 1-8 7H86a8 8 0 0 1-8-7z" fill="var(--surface)" stroke="var(--on-dark)" stroke-width="3"/>
+                <rect x="75" y="110" width="42" height="18" fill="var(--mint)"/>
+                <path d="M85 119h22" stroke="var(--teal-700)" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </li>
+
+            <li class="offer-slide">
+              <div class="offer-copy">
+                <span class="offer-tag">Envío gratis</span>
+                <h3>Compras mayores a $15</h3>
+                <p>Te lo llevamos hasta la puerta de tu casa, sin costo extra de entrega.</p>
+                <a class="btn btn-primary" href="contacto.html">Escribinos</a>
+              </div>
+              <svg class="offer-art" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="100" r="86" fill="color-mix(in srgb, var(--on-dark) 10%, transparent)"/>
+                <path d="M64 78l36 15 36-15" stroke="var(--mint)" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+                <rect x="58" y="86" width="84" height="60" rx="8" fill="var(--on-dark)"/>
+                <rect x="64" y="96" width="72" height="44" rx="4" fill="var(--surface)"/>
+                <path d="M64 100h72" stroke="var(--green-500)" stroke-width="6"/>
+                <path d="M92 100v40M108 100v40" stroke="var(--green-500)" stroke-width="3" opacity=".55"/>
+                <path d="M84 62c4-8 12-8 16 0" stroke="var(--green-500)" stroke-width="4" fill="none" stroke-linecap="round"/>
+              </svg>
+            </li>
+
+          </ul>
+        </div>
+        <button class="carousel-arrow prev" data-prev type="button" aria-label="Oferta anterior">‹</button>
+        <button class="carousel-arrow next" data-next type="button" aria-label="Oferta siguiente">›</button>
+      </div>
+      <div class="carousel-dots" data-dots></div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <a class="brand" href="index.html">
+        <img class="brand-mark" src="logo-icon.png" alt="Logo de FarmaVida" width="40" height="40">
+        <span class="brand-word">Farma<em>Vida</em></span>
+      </a>
+      <ul class="nav-links" style="position:static;display:flex;background:none;border:none;padding:0;box-shadow:none;">
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="categorias.html">Categorías</a></li>
+        <li><a href="horarios.html">Horarios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> FarmaVida. Todos los derechos reservados.</span>
+      <span>Farmacia de barrio, cerca de vos.</span>
+    </div>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/50375860276?text=Hola%2C%20quisiera%20hacer%20una%20consulta%20en%20FarmaVida." target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp al 7586-0276">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 4h16v13H9l-5 4z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M9 10.3c0 3 2.4 5.4 5.3 5.4l1.1-1.6c.2-.3.6-.4.9-.2l1.9 1c.3.2.4.6.2.9-.6 1.1-1.8 1.7-3 1.5-3-.4-6-3.5-6.4-6.6-.1-1.2.5-2.4 1.5-3 .3-.2.7-.1.9.2l1 1.9c.2.3.1.7-.2.9l-1.6 1.1z" fill="currentColor"/>
+    </svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
